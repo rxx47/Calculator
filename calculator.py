@@ -40,5 +40,5 @@ def interface():
             cholestoral_interface()
     return
         
-if __name__ == "__main__":
+if __name__ == "__main__":      # to make sure the part bellow will not be run when this module is to be imported: that is, only functions will be imported
         interface()
